@@ -40,3 +40,6 @@ Run `rake acknowledgements:generate` and a `resources/Settings.bundle/Root.plist
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+---
+[![Code Climate](https://codeclimate.com/github/MohawkApps/motion-acknowledgements.png)](https://codeclimate.com/github/MohawkApps/motion-acknowledgements)  [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MohawkApps/motion-acknowledgements/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
