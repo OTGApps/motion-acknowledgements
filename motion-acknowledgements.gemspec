@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mjar81@gmail.com"]
   spec.description   = "This RubyMotion specific gem makes it easy to include the CocoaPods acknowledgements file in your application. Simply add to your bundle file, run `rake acknowledgements:generate` and each time you build your application, the CocoaPods acknowledgements file will be copied over to your Settings.bundle. This then adds an entry for your app into the system's Settings.app with an 'Acknowledgements' submenu."
   spec.summary       = "This RubyMotion specific gem makes it easy to include the CocoaPods acknowledgements file in your application."
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/MohawkApps/motion-acknowledgements"
   spec.license       = "MIT"
 
   files = []
