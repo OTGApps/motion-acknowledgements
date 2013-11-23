@@ -30,7 +30,8 @@ Run `rake acknowledgements:generate` and a `resources/Settings.bundle/Root.plist
 
 ## Screenshots
 
-![screenshot 2013-11-23 11 55 58](https://f.cloud.github.com/assets/139261/1606869/3c36d0d2-5460-11e3-88bb-505d12a2dd11.png) ![screenshot 2013-11-23 11 56 01](https://f.cloud.github.com/assets/139261/1606870/3e0716e2-5460-11e3-8ad1-4c129390c3ae.png) ![screenshot 2013-11-23 11 56 05](https://f.cloud.github.com/assets/139261/1606871/3f8d3564-5460-11e3-9d72-28861f257982.png)
+![ios simulator screen shot nov 23 2013 11 58 35 am](https://f.cloud.github.com/assets/139261/1606878/a8ba7e02-5460-11e3-83ef-627ae62308c6.png) ![ios simulator screen shot nov 23 2013 11 58 41 am](https://f.cloud.github.com/assets/139261/1606879/aa33e142-5460-11e3-932a-a5bc2d5f8208.png)
+![ios simulator screen shot nov 23 2013 11 58 43 am](https://f.cloud.github.com/assets/139261/1606880/acfb72a0-5460-11e3-8fcc-895b88c40f0d.png) ![ios simulator screen shot nov 23 2013 11 58 45 am](https://f.cloud.github.com/assets/139261/1606881/aecacd88-5460-11e3-98c1-521ec29d84d8.png)
 
 ## Contributing
 
