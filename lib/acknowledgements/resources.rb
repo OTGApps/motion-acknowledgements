@@ -14,7 +14,7 @@ class Motion::Project::App
         abort
       end
 
-      # Run thenormal build process.
+      # Run the normal build process.
       build_before_copy_acknowledgements(platform, options)
       # Now the app is built, but not codesigned yet.
 
