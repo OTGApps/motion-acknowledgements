@@ -1,6 +1,6 @@
 # motion-acknowledgements
 
-[![Code Climate](https://codeclimate.com/github/MohawkApps/motion-acknowledgements.png)](https://codeclimate.com/github/MohawkApps/motion-acknowledgements)  [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MohawkApps/motion-acknowledgements/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Code Climate](https://codeclimate.com/github/MohawkApps/motion-acknowledgements.png)](https://codeclimate.com/github/MohawkApps/motion-acknowledgements) [![Gem Version](https://badge.fury.io/rb/motion-acknowledgements.svg)](http://badge.fury.io/rb/motion-acknowledgements)
 
 This RubyMotion specific gem makes it easy to include the CocoaPods acknowledgements file in your application. Simply add to your bundle file, run `rake acknowledgements:generate` and each time you build your application, the CocoaPods acknowledgements file will be copied over to your Settings.bundle. This then adds an entry for your app into the system's Settings.app with an 'Acknowledgements' submenu.
 
