@@ -19,13 +19,18 @@ class Motion::Project::App
       # Now the app is built, but not codesigned yet.
 
       destination = File.join(config.app_bundle(platform), 'Settings.bundle/Acknowledgements.plist')
-      pods_path = 'vendor/Pods/Pods-acknowledgements.plist'
+      pods_alt_path = 'vendor/Pods/Target Support Files/Pods/Pods-acknowledgements.plist'
 
       if File.exist? pods_path
         info 'Copy', destination
         FileUtils.cp_r(pods_path, destination, :remove_destination => true)
       else
-        warn 'Could not find CocoaPods Acnkowledgement file.'
+        if File.exist? pods_alt_path
+          info 'Copy', destination
+          FileUtils.cp_r(pods_alt_path, destination, :remove_destination => true)
+        else
+          warn 'Could not find CocoaPods Acknowledgement file.'
+        end
       end
     end
   end
