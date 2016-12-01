@@ -20,7 +20,7 @@ class Motion::Project::App
 
       destination = File.join(config.app_bundle(platform), 'Settings.bundle/Acknowledgements.plist')
       pods_path = 'vendor/Pods/Pods-acknowledgements.plist'
-      pods_alt_path = 'vendor/Pods/Target Support Files/Pods/Pods-acknowledgements.plist'
+      pods_alt_path = 'vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion-acknowledgements.plist'
 
       if File.exist? pods_path
         info 'Copy', destination
