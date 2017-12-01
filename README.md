@@ -28,7 +28,7 @@ Run `rake acknowledgements:generate` and a `resources/Settings.bundle/Root.plist
 
 ## Automation
 
-`motion-acknowledgements` extends your app's build process to copy over the `vendor/Pods/Pods-acknowledgements.plist` file to your compiled binary (into the `Settings.bundle` file) at the end of the build process. This acknowledgements file is [automatically generated](https://github.com/CocoaPods/CocoaPods/wiki/Acknowledgements) by the `rake pod:install` command.
+`motion-acknowledgements` extends your app's build process to copy over the `vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion-acknowledgements.plist` file to your compiled binary (into the `Settings.bundle` file) at the end of the build process. This acknowledgements file is [automatically generated](https://github.com/CocoaPods/CocoaPods/wiki/Acknowledgements) by the `rake pod:install` command.
 
 ## Screenshots
 
